@@ -25,7 +25,13 @@ module.exports = {
    async getOne(req, res){
       const chapter = await Chapter.findById(req.params.id);
 
-      res.json(chapter);
+      //getting the questions from the chapter
+      const questions = await Question.find({chapterId: chapter._id}, '-resolutionCode')
+
+      res.json({ 
+         chapter,
+         questions 
+      });
    },
 
    async edit(req, res){
