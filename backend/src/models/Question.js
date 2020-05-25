@@ -1,6 +1,6 @@
-var mongoose = require('mongoose');
+const mongoose = require('mongoose');
 
-var QuestionSchema = new mongoose.Schema({
+const QuestionSchema = new mongoose.Schema({
    chapterId:{
       type: mongoose.Types.ObjectId,
       required: true,

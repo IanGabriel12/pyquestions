@@ -1,6 +1,6 @@
-var mongoose = require('mongoose');
+const mongoose = require('mongoose');
 
-var ChapterSchema = new mongoose.Schema({
+const ChapterSchema = new mongoose.Schema({
    name: {
       type: String,
       required: true,

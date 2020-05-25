@@ -1,5 +1,7 @@
-var mongoose = require('mongoose');
-var Chapter = mongoose.model('Chapter');
+const mongoose = require('mongoose');
+const Chapter = mongoose.model('Chapter');
+const Question = mongoose.model('Question');
+
 
 module.exports = {
    async add(req, res){

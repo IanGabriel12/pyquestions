@@ -1,5 +1,5 @@
-var mongoose = require('mongoose');
-var Question = mongoose.model('Question');
+const mongoose = require('mongoose');
+const Question = mongoose.model('Question');
 
 module.exports = {
    async add(req, res){
