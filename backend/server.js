@@ -15,4 +15,5 @@ requireDir('./src/models');
 
 var routers = requireDir('./routes');
 app.use('/chapters', routers.chapterRouter);
+app.use('/questions', routers.questionRouter);
 app.listen(3307);

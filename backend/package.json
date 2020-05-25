@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "startDev": "sudo docker start mongodb && nodemon server.js"
+    "startDev": "sudo docker start mongodb && nodemon server.js",
+    "start": "nodemon server.js"
   },
   "devDependencies": {
     "axios": "^0.19.2",

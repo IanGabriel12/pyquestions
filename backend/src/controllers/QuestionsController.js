@@ -14,14 +14,20 @@ module.exports = {
       res.json('Success');
    },
 
-   getAll(req, res){
-      const questions = Question.find();
+   async getAll(req, res){
+      const questions = await Question.find();
 
       res.json(questions);
    },
 
-   edit(req, res){
-      const question = Question.findByIdAndUpdate(req.params.id, req.body, {
+   async getOne(req, res){
+      const question = await Question.findById(req.params.id);
+
+      res.json(question);
+   },
+
+   async edit(req, res){
+      const question = await Question.findByIdAndUpdate(req.params.id, req.body, {
          new: true,
       })
 

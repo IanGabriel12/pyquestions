@@ -1,6 +1,6 @@
-var express = require('express');
-var router = express.Router();
-var ChapterController = require('../src/controllers/ChapterController');
+const express = require('express');
+const router = express.Router();
+const ChapterController = require('../src/controllers/ChapterController');
 
 router.post('/', ChapterController.add);
 router.get('/', ChapterController.getAll);

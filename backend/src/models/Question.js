@@ -1,8 +1,8 @@
 var mongoose = require('mongoose');
 
 var QuestionSchema = new mongoose.Schema({
-   chapterName:{
-      type: String,
+   chapterId:{
+      type: mongoose.Types.ObjectId,
       required: true,
    },
    text: {
