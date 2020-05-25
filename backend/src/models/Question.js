@@ -1,0 +1,26 @@
+var mongoose = require('mongoose');
+
+var QuestionSchema = new mongoose.Schema({
+   chapterName:{
+      type: String,
+      required: true,
+   },
+   text: {
+      type: String,
+      required: true,
+   },
+   resolutionCode: {
+      type: String,
+      required: true,
+   },
+   difficulty: {
+      type: Number,
+      min: 1,
+      max: 3,
+   },
+   title: String,
+   sourceUrl: String,
+   
+})
+
+mongoose.model('Question', QuestionSchema);
