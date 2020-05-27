@@ -1,0 +1,147 @@
+footer{
+   position: relative;
+   height: 15%;
+   width: 100%;
+   background: linear-gradient(90deg, #3470a3, #4f7efc); /*#3470a3; #4f7efc */
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   color: white;
+   z-index: 2;
+}
+
+footer a{
+   color: white;
+   text-transform: uppercase;
+   margin: 0 50px;
+   font-size: 28px;
+   font-family: 'BebasNeue', sans-serif;
+}
+
+footer a:hover{
+   text-decoration: underline;
+}
+
+/*==========================HEADER==========================*/
+
+header{
+   position: relative;
+   display: flex;
+   justify-content: space-between;
+   padding-right: 10px;
+   width: 100%;
+   height: 15%;
+   z-index: 1;
+}
+
+.brand{
+   background-image: url('./assets/images/brand-bg.png');
+   background-repeat: no-repeat;
+   background-position: top left;
+   background-size: contain;
+   width: 200px;
+   height: 150px;
+}
+
+.brand .logo{
+   position: absolute;
+   top: 20px;
+   left: 10px;
+   display: flex;
+   align-items: baseline;
+}
+
+.brand span{
+   color: white;
+   font-family: 'AdventBold', sans-serif;
+   font-size: 30px;
+   line-height: 100%;
+}
+
+.brand img{
+   width: 30px;
+   height: 30px;
+}
+
+nav{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: linear-gradient(90deg, #3470a3, #4f7efc, #3470a3);
+   padding: 5px;
+   border-radius: 20px;
+   align-self: center;
+}
+
+nav a{
+   color: white;
+   margin: 0 25px;
+   font-family:'AdventBold', sans-serif;
+   font-size: 24px;
+}
+
+.decoration-rows{
+   border-left: 10px solid #3470a3;
+   border-right: 10px solid #fdd54f;
+   z-index: 1;
+   position: absolute;
+   left: 30px;
+   height: 100vh;
+   width: 30px;
+}
+
+/*==========================BANNER==========================*/
+
+.banner{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   height: 70%;
+   width: 100%;
+}
+
+.background-gradient{
+   position: absolute;
+   bottom: 0;
+   z-index: 0;
+   height: 50%;
+   width: 100%;
+   background: linear-gradient(172deg, rgba(52,159,246,1) 0%, rgba(140,183,173,1) 52%, #fdd54f 100%);;
+}
+
+.img-wrapper{
+   flex-grow: 1;
+   position: relative;
+   top: 20px;
+   z-index: 1;
+   align-self: center;
+   height: 200px;
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.banner-image{
+   max-height: 250px;
+   height: 100%;
+}
+
+.banner h1{
+   font-family: 'AdventRegular', sans-serif;
+   text-transform: capitalize;
+   position: relative;
+   bottom: 10px;
+   right: 30px;
+   width: 30%;
+   align-self: center;
+   text-align: center;
+}
+
+#pc-boy{
+}
+
+#pc-girl{
+   position: relative;
+   bottom: 50px;
+}
