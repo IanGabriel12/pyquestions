@@ -6,16 +6,21 @@ import pcGirl from '../assets/images/pc-girl.png';
 
 export default function HomePage(props){
    return(
-      <>
-      <Header />
-      <div className='banner'>
-         <h1>Bem vindo ao seu lugar de estudos</h1>
-         <div className='img-wrapper'>
-            <img src={pcBoy}/>
-            <img src={pcGirl}/>
+      <div className='home-page'>
+         <div className='decoration-rows'/>
+         <Header />
+         <div className='banner'>
+            <h1>Bem vindo ao seu lugar de estudos</h1>
+            <div className='img-wrapper'>
+               <img src={pcBoy}/>
+               <img src={pcGirl}/>
+            </div>
+            <div className='bg-gradient'></div>
          </div>
-         <div className='bg-gradient'></div>
+         <footer>
+            <a href='#'>Tente novas questões</a>
+            <a href='#'>Prepare-se para olimpíadas</a>
+         </footer>
       </div>
-      </>
    )
 }

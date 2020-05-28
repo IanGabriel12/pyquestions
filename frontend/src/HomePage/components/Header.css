@@ -44,6 +44,10 @@ nav a{
    color: white;
 }
 
+nav a:hover{
+   text-decoration: underline;
+}
+
 @media only screen and (min-width: 700px){
    nav a{
       border-radius: none;
