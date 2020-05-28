@@ -1,14 +1,11 @@
 import React from 'react';
-import './HomePage.css';
-import pythonLogo from './assets/images/python.png';
-import brandBg from './assets/images/brand-bg.png';
-import pcBoy from './assets/images/pc-boy.png';
-import pcGirl from './assets/images/pc-girl.png';
+import './Header.css';
+import pythonLogo from '../../assets/images/python.png';
+import brandBg from '../../assets/images/brand-bg.png';
 
-export default function HomePage(props) {
+export default function Header(props) {
    return (
       <>
-      <div className='decoration-rows'></div>
       <header>
          <div className='brand'>
             <img src={brandBg} className='bg'/>
