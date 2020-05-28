@@ -8,7 +8,7 @@ export default function Header(props) {
       <>
       <header>
          <div className='brand'>
-            <img src={brandBg} className='bg'/>
+            <img src={brandBg} className='bg' alt='brand-bg'/>
             <div className='logo'>
                <img src={pythonLogo} alt='Python logo'/>
                <span>PyQuestions</span>
