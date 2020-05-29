@@ -1,12 +1,15 @@
 import React from 'react';
 import './Header.css';
-import pythonLogo from '../../assets/images/python.png';
-import brandBg from '../../assets/images/brand-bg.png';
+import pythonLogo from '../assets/images/python.png';
+
+//using img for now, changing to SVG later
+import brandBg from '../assets/images/brand-bg.png';
 
 export default function Header(props) {
+   const headerStyles = props.style // in some pages, the header has different styles
    return (
       <>
-      <header>
+      <header style={headerStyles}> 
          <div className='brand'>
             <img src={brandBg} className='bg' alt='brand-bg'/>
             <div className='logo'>

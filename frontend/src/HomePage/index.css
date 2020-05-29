@@ -2,6 +2,7 @@
    min-height: 100vh;
    display: flex;
    flex-direction: column;
+   background-image: url('../assets/images/background.png');
 }
 
 @media only screen and (min-width: 700px){
@@ -14,7 +15,7 @@
       width: 45px;
       border-left: 15px solid #3470a3;
       border-right: 15px solid #fdd54f;
-      z-index: 0;
+      z-index: 1;
    }
 
    .home-page{
