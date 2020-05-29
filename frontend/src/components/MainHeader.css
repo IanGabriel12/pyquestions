@@ -1,7 +1,7 @@
 header{
    position: relative;
    z-index: 2;
-   height: 100px;
+   height: 150px;
    display: flex;
    justify-content: space-between;
 }
@@ -29,6 +29,8 @@ header{
 }
 
 nav{
+   position: relative;
+   bottom: 25px;
    display: flex;
    flex-direction: column;
    justify-content: center;

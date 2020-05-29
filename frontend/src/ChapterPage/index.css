@@ -1,0 +1,46 @@
+.chapter-header{
+   width: 100%;
+   min-height: 200px;
+   border-bottom: 20px solid #fdd54f;
+   background: #3470a3;
+   color: white;
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.chapter-header h1{
+   font-family: 'BebasNeue', sans-serif;
+   font-size: 50px;
+   font-weight: normal;
+   letter-spacing: 1px;
+   margin: 10px 0;
+}
+
+.chapter-header p{
+   text-align: center;
+   margin-bottom: 10px;
+   width: 90%;
+   font-family: 'AdventLight', sans-serif;
+   font-size: 22px;
+   font-weight: bold;
+}
+
+@media only screen and (min-width: 700px){
+   .chapter-header{
+      flex-direction: row;
+      padding: 20px;
+   }
+
+   .chapter-header p, .chapter-header h1{
+      width: 50%;
+      margin: 0 10px;
+      text-align: center;
+   }
+
+   .chapter-header h1{
+      font-size: 70px;
+   }
+
+}

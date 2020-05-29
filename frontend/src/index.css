@@ -3,8 +3,8 @@
    src: url('./assets/fonts/advent-Bd3.otf');
 }
 @font-face{
-   font-family: 'AdventRegular';
-   src: url('./assets/fonts/advent-Re.otf');
+   font-family: 'AdventLight';
+   src: url('./assets/fonts/advent-Lt3.otf');
 }
 @font-face{
    font-family: 'BebasNeue';
