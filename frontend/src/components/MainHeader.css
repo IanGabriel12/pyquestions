@@ -29,8 +29,6 @@ header{
 }
 
 nav{
-   position: relative;
-   bottom: 25px;
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -39,17 +37,13 @@ nav{
 
 nav a{
    border-radius: 20px;
-   background: linear-gradient(#3470a3, #4f7efc, #3470a3);
+   background: #3470a3;
    margin: 10px;
    padding: 5px 2px;
    font-family: 'AdventBold', sans-serif;
    font-size: 20px;
    text-align: center;
    color: white;
-}
-
-nav a:hover{
-   text-decoration: underline;
 }
 
 @media only screen and (min-width: 700px){
@@ -62,6 +56,8 @@ nav a:hover{
    }
 
    nav{
+      position: relative;
+      bottom: 25px;
       flex-direction: row;
       border-radius: 20px;
       background: linear-gradient(90deg, #3470a3, #4f7efc, #3470a3);

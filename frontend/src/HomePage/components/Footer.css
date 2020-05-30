@@ -17,10 +17,6 @@ footer a{
    font-size: 28px;
 }
 
-footer a:hover{
-   text-decoration: underline;
-}
-
 footer a:first-child{
    border-right: 1px solid white;
 }

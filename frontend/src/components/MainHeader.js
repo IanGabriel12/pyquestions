@@ -20,6 +20,7 @@ export default function MainHeader(props) {
          <nav>
             <a href='#'>Banco de questões</a>
             <a href='#'>Sobre nós</a>
+            <a href='#'>E-book</a>
          </nav>
       </header> 
       </>
