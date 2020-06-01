@@ -1,6 +1,7 @@
 import React from 'react';
 import './MainHeader.css';
 import pythonLogo from '../assets/images/python.png';
+import { Link } from 'react-router-dom';
 
 //using img for now, changing to SVG later
 import brandBg from '../assets/images/brand-bg.png';
@@ -14,11 +15,11 @@ export default function MainHeader(props) {
             <img src={brandBg} className='bg' alt='brand-bg'/>
             <div className='logo'>
                <img src={pythonLogo} alt='Python logo'/>
-               <span>PyQuestions</span>
+               <Link to='/'>PyQuestions</Link>
             </div>
          </div>
          <nav>
-            <a href='#'>Banco de questões</a>
+            <Link to='/chapters'>Banco de questões</Link>
             <a href='#'>Sobre nós</a>
             <a href='#'>E-book</a>
          </nav>

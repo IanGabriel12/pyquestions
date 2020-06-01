@@ -29,3 +29,8 @@ a:hover{
    text-decoration-color: white;
    cursor: pointer;
 }
+
+article{
+   position: absolute;
+   width: 100%;
+}

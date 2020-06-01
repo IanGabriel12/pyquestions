@@ -1,38 +1,4 @@
-.chapter-header{
-   width: 100%;
-   min-height: 200px;
-   border-bottom: 20px solid #fdd54f;
-   background: #3470a3;
-   color: white;
-
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-}
-
-.chapter-header h1{
-   font-family: 'BebasNeue', sans-serif;
-   font-size: 50px;
-   font-weight: normal;
-   letter-spacing: 1px;
-   margin: 10px 0;
-}
-
-.chapter-header p{
-   text-align: center;
-   margin-bottom: 10px;
-   width: 90%;
-   font-family: 'AdventLight', sans-serif;
-   font-size: 22px;
-   font-weight: bold;
-}
-
-.chapter-list{
-   position: absolute;
-   width: 100%;
-}
-
-.chapter-list button{
+#filter-button{
    position: absolute;
    top: 0;
    right: 0;
@@ -43,93 +9,18 @@
    font-size: 22px;
 }
 
-.chapter-list ul{
+.question-list{
    width: 100%;
    list-style-type: none;
    padding-top: 30px;
    background: #3470a3;
 }
 
-.chapter-list li{
-   margin: 20px 0;
-   padding-left: 10px;
-   border-bottom: 2px solid white;
-   display: flex;
-   flex-direction: column;
-   justify-content: flex-start;
-}
 
-.chapter-list li:last-child{
-   margin-bottom: 0;
-}
-
-.chapter-list li .difficulty{
-   color: white;
-   margin-bottom: 10px;
-}
-
-.chapter-list li h2{
-   font-family: 'BebasNeue', sans-serif;
-   color: white;
-   font-size: 38px;
-   font-weight: normal;
-}
-
-.chapter-list .list-row{
-   display: none;
-}
-
-
-.chapter-list .difficulty{
-   display: flex;
-   align-items: center;
-   font-size: 18px;
-}
-.chapter-list .difficulty-indicator{
-   display: inline;
-   margin-left: 10px;
-}
-.chapter-list .difficulty-ball{
-   margin: 0 5px;
-   display: inline-block;
-   width: 15px;
-   height: 15px;
-   border-radius:50%;
-   background-color: #fdd54f;
-}
-.chapter-list .difficulty-ball:last-child{
-   background-color: #aaaaaa;
-}
 
 @media only screen and (min-width: 700px){
-   .chapter-header{
-      flex-direction: row;
-      padding: 20px;
-   }
-
-   .chapter-header p, .chapter-header h1{
-      width: 50%;
-      margin: 0 10px;
-      text-align: center;
-   }
-
-   .chapter-header h1{
-      font-size: 70px;
-   }
-
-   .chapter-list ul{
+   .question-list{
       width: 60%;
       margin: 30px 0 30px 30px;
-   }
-
-   .chapter-list li{
-   }
-
-   .chapter-list li h2{
-      font-size: 42px;
-   }
-
-   .chapter-list .difficulty{
-      font-size: 22px;
    }
 }

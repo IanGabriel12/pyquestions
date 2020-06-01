@@ -16,12 +16,15 @@ header{
 }
 
 .brand .logo{
-   font-family: 'AdventBold', sans-serif;
-   font-size: 22px;
-   color: white;
    position: absolute;
    top: 20px;
    left: 10px;
+}
+
+.brand .logo a{
+   font-family: 'AdventBold', sans-serif;
+   font-size: 22px;
+   color: white;
 }
 
 .brand .logo img{

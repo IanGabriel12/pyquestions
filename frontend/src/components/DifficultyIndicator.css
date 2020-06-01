@@ -1,0 +1,31 @@
+.difficulty{
+   color: white;
+   margin-bottom: 10px;
+   display: flex;
+   align-items: center;
+   font-size: 18px;
+}
+
+.difficulty .difficulty-indicator{
+   display: inline;
+   margin-left: 10px;
+}
+
+.difficulty .difficulty-ball{
+   margin: 0 5px;
+   display: inline-block;
+   width: 15px;
+   height: 15px;
+   border-radius:50%;
+   background-color: #fdd54f;
+}
+
+.difficulty .difficulty-ball:last-child{
+   background-color: #aaaaaa;
+}
+
+@media only screen and (min-width: 700px){
+   .difficulty{
+      font-size: 22px;
+   }
+}

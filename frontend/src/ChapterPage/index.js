@@ -1,5 +1,7 @@
 import React from 'react';
 import MainHeader from '../components/MainHeader';
+import PageHeader from '../components/PageHeader';
+import QuestionItem from './components/QuestionItem';
 import './index.css';
 
 export default function ChapterPage(props){
@@ -16,34 +18,20 @@ export default function ChapterPage(props){
    ] 
    const listElements = qList.map((text, index) => {
       return (
-         <li key={index}>
-            <span className='difficulty'>Dificuldade: 
-               <div className='difficulty-indicator'>
-                  <div className='difficulty-ball'></div>
-                  <div className='difficulty-ball'></div>
-                  <div className='difficulty-ball'></div>
-               </div>
-            </span>
-            <a><h2>{text}</h2></a>
-         </li>
+         <QuestionItem key={index} title={text}/>
       )
    })
 
    return (
       <>
       <MainHeader style={{ background: bgGradient }}/>
-      <div className='chapter-header'>
-         <h1>entrada e saída</h1>
-         <p>Entradas e saídas são a comunicação do programa com o mundo real,
-         a forma como o programa recebe os dados a serem processados do mundo real e 
-         devolve a este a resposta</p>
-      </div>
-      <div className='chapter-list'>
-         <button>Filtrar questões</button>
-         <ul>
+      <PageHeader />
+      <article>
+         <button id='filter-button'>Filtrar questões</button>
+         <ul className='question-list'>
             {listElements}
          </ul>
-      </div>
+      </article>
       </>
    )
 }
