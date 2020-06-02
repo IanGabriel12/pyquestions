@@ -1,7 +1,9 @@
 import React from 'react';
 import MainHeader from '../components/MainHeader';
 import PageHeader from '../components/PageHeader';
+import EntityList from '../components/EntityList';
 import QuestionItem from './components/QuestionItem';
+
 import './index.css';
 
 export default function ChapterPage(props){
@@ -28,9 +30,9 @@ export default function ChapterPage(props){
       <PageHeader />
       <article>
          <button id='filter-button'>Filtrar questões</button>
-         <ul className='question-list'>
+         <EntityList>
             {listElements}
-         </ul>
+         </EntityList>
       </article>
       </>
    )

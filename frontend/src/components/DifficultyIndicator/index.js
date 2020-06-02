@@ -1,5 +1,5 @@
 import React from 'react';
-import './DifficultyIndicator.css';
+import './index.css';
 
 export default function DifficultyIndicator(props){
    return(

@@ -1,0 +1,10 @@
+#filter-button{
+   position: absolute;
+   top: 0;
+   right: 0;
+   padding: 5px;
+   background: #404040;
+   color: white;
+   font-family: 'BebasNeue', sans-serif;
+   font-size: 22px;
+}

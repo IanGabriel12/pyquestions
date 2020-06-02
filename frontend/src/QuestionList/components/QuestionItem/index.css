@@ -1,0 +1,13 @@
+.difficulty{
+   color: white;
+   margin-bottom: 10px;
+   display: flex;
+   align-items: center;
+   font-size: 18px;
+}
+
+@media only screen and (min-width: 700px){
+   .difficulty{
+      font-size: 22px;
+   }
+}
