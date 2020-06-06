@@ -1,5 +1,7 @@
 {
   "scripts": {
+    "knex:seed": "npx knex --knexfile knexkile.js seed:run",
+    "knex:migrate": "npx knex --knexfile knexkile.js migrate:latest",
     "dev": "nodemon server.js"
   },
   "devDependencies": {

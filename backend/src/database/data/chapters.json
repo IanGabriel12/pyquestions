@@ -1,0 +1,69 @@
+{
+   "chapters": [
+      {
+         "name": "Entrada e saída",
+         "description": [
+            "Funções de entrada e saída são a maneira que o computador",
+            "tem de se comunicar com o mundo."
+         ]
+      },
+      {
+         "name": "Estruturas condicionais",
+         "description": [
+            "Uma estrutura condicional permite que o programa faça a escolha do que executar,",
+            "de acordo com uma condição."
+         ]
+      },
+      {
+         "name": "Estruturas de repetição",
+         "description": [
+            "É uma estrutura que permite executar mais de uma vez o mesmo ",
+            "comando ou conjunto de comandos, de acordo com uma condição ou com um contador."
+         ]
+      },
+      {
+         "name": "Listas",
+         "description":[
+            "Uma lista é uma estrutura de dados composta por itens organizados",
+            "de forma linear, na qual cada um pode ser acessado a partir de um índice,",
+            "que representa sua posição na coleção (iniciando em zero)."
+         ]
+      },
+      {
+         "name": "Strings",
+         "description": [
+            "São sequências de caracteres, geralmente utilizadas para representar palavras,",
+            "frases ou textos de um programa."
+         ]
+      },
+      {
+         "name": "Funções",
+         "description": [
+            "Em computação, uma função é uma sequência de instruções que computa",
+            "um ou mais resultados que chamamos de parâmetros. Por exemplo,",
+            "quando queremos calcular a razão do espaço pelo tempo podemos",
+            "definir uma função recebendo estes parâmetros: f(espaco, tempo) = espaco/tempo"
+         ]
+      },
+      {
+         "name": "Desafios",
+         "description": [
+            "Praticar, praticar e praticar... Essa é a página em que você vai ",
+            "testar seus conhecimentos de uma forma mais aprofundada.",
+            "Os desafios aqui presentes variam desde questões da OBI até questões",
+            "de Olimpíadas de Matemática. O que está esperando?",
+            "Vai encarar os nossos desafios?"
+         ]
+      },
+      {
+         "name": "Projetos",
+         "description": [
+            "As questões abordadas nesta página são bem mais",
+            "complexas e longas do que as anteriores.",
+            "Nelas, você poderá unir TODOS os conhecimentos compartilhados",
+            "até aqui em um único programa. Para isso, é necessário tempo,",
+            "conhecimento e paciência... Boa sorte!"
+         ]
+      }
+   ]
+}

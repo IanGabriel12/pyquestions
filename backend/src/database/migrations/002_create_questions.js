@@ -1,12 +1,13 @@
 exports.up = function(knex){
    return knex.schema.createTable('questions', table => {
       table.increments();
-      table.string('title');
-      table.text('description');
-      table.integer('difficulty'); // from 1 to 3
-      table.string('resolutionURL');
+      table.string('title').notNullable();
+      table.text('description').notNullable();
+      table.integer('difficulty').notNullable(); // from 1 to 3
+      table.string('resolutionURL').notNullable();
+      table.string('sourceURL')
 
-      table.integer('chapter_id');
+      table.integer('chapter_id').notNullable();
       table.foreign('chapter_id')
          .references('id')
          .inTable('chapters')
