@@ -1,3 +1,4 @@
 /node_modules
-/tmp/resolutions/*
-!/tmp/resolutions/.gitkeep
+/assets/resolutions/*
+!/assets/resolutions/.gitkeep
+/src/database/database.sqlite
