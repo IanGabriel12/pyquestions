@@ -1,4 +1,4 @@
 /node_modules
 /assets/resolutions/*
 !/assets/resolutions/.gitkeep
-/src/database/database.sqlite
+*.sqlite
