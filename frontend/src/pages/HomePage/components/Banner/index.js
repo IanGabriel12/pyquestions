@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.css';
-import pcBoy from '../../../assets/images/pc-boy.png';
-import pcGirl from '../../../assets/images/pc-girl.png';
+import pcBoy from '../../../../assets/images/pc-boy.png';
+import pcGirl from '../../../../assets/images/pc-girl.png';
 
 export default function Banner(props){
    return(

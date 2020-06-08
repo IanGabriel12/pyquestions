@@ -8,7 +8,7 @@ exports.seed = async function(knex) {
       title: question.title,
       description: question.description.join(' '),
       difficulty: question.difficulty,
-      resolutionURL: `http://localhost:3307/resolution/${question.resolution_file}`,
+      resolutionURL: `http://localhost:3307/resolutions/chapter${question.chapter_id}/${question.resolution_file}`,
       sourceURL: question.sourceURL,
       chapter_id: question.chapter_id,
    }));

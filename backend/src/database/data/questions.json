@@ -8,13 +8,178 @@
          "difficulty": 1,
          "resolution_file": "hello_world.py",
          "sourceURL": "",
-         "chapter_id": 1,
-         "input_examples": [
-            {
-               "input": "",
-               "output": "Hello World"
-            }
-         ]
+         "chapter_id": 1
+      },
+      {  
+         "title": "Repetição de palavras",
+         "description": [
+            "Faça um programa que receba uma palavra, depois repita essa palavra duas vezes."
+         ],
+         "difficulty": 1,
+         "resolution_file": "repeticao.py",
+         "sourceURL": "",
+         "chapter_id": 1
+      },
+      {
+         "title": "Média ponderada",
+         "description": [
+            "Crie um programa que calcule a média ponderada entre 2 números.",
+            "Seu programa deve receber 4 valores: um número qualquer A, um número qualquer B,",
+            "o peso de A e o peso de B."
+         ],
+         "difficulty": 2,
+         "resolution_file": "media_ponderada.py",
+         "sourceURL": "",
+         "chapter_id": 1
+      },
+      {
+         "title": "Operações básicas entre números",
+         "description": [
+            "Crie um programa que receba 2 números e mostre o resultado",
+            "das 4 operações básicas entre eles."
+         ],
+         "difficulty": 1,
+         "resolution_file": "operacoes.py",
+         "sourceURL": "",
+         "chapter_id": 1
+      },
+      {
+         "title": "Aprovação",
+         "description": [
+            "A nota de Marcos vai ser a média aritmética entre duas provas.",
+            "Ele já fez a primeira, e precisa saber quanto ele tem que tirar na",
+            "segunda para passar. Crie um programa que receba a nota da primeira prova.",
+            "Seu programa deve retornar a nota mínima que Marcos deve tirar para passar de ano.",
+            "(média para aprovação: 60)."
+         ],
+         "difficulty": 2,
+         "resolution_file": "aprovacao.py",
+         "sourceURL": "",
+         "chapter_id": 1
+      },
+      {
+         "title": "Conversor de dólar",
+         "description": [
+            "Tiago quer viajar para os Estados Unidos,",
+            "mas precisa saber quantos dólares ele terá depois de converter seu dinheiro.",
+            "O problema é que o valor do dólar muda muito.",
+            "Então crie um programa que receba o valor do dólar em reais",
+            "naquele momento e a quantidade de reais que Tiago quer converter.",
+            "Seu programa deve retornar quantos dólares ele terá depois da conversão."
+         ],
+         "difficulty": 2,
+         "resolution_file": "dolar.py",
+         "sourceURL": "",
+         "chapter_id": 1
+      },
+      {
+         "title": "Azulejos",
+         "description": [
+            "Um pedreiro precisa saber quantos azulejos de 0.5m²",
+            "ele precisa colocar em uma parede. Supondo que a parede é quadrada,",
+            "crie um código que receba o lado da parede e retorne quantos azulejos",
+            "serão necessários para cobri-la por completo."
+         ],
+         "difficulty": 2,
+         "resolution_file": "azulejos.py",
+         "sourceURL": "",
+         "chapter_id": 1
+      },
+      {
+         "title": "Áreas de formas regulares",
+         "description": [
+            "O seu professor passou uma atividade para calcular as áreas de formas regulares.",
+            "Você quis pegar um atalho e colocou o seu computador para fazer as contas no seu",
+            "lugar Seu programa vai receber um único valor, e ele deve calcular as áreas de:\n",
+            "1. Um quadrado com o lado do tamanho desse valor\n",
+            "2. Um triângulo equilátero com lado igual a esse valor\n",
+            "3. Um círculo com o raio igual a esse valor.\n",
+            "considere: pi=(3.14), raiz de 3=(1.41)"
+         ],
+         "difficulty": 3,
+         "resolution_file": "geometria.py",
+         "sourceURL": "",
+         "chapter_id": 1
+      },
+      {
+         "title": "Quilos de comida",
+         "description": [
+            "Pedro vai dar uma festa e precisa comprar comida para os convidados,",
+            "o problema é que ele não sabe quanto uma pessoa come em uma festa.\n",
+            "Seu programa deve receber a quantidade de comida, em gramas,",
+            "que uma pessoa consome em uma festa e a quantidade de convidados.",
+            "Ele deve retornar quantos QUILOS de comida Pedro deve comprar."
+         ],
+         "difficulty": 3,
+         "resolution_file": "festa.py",
+         "sourceURL": "",
+         "chapter_id": 1
+      },
+      {
+         "title": "Tabuada",
+         "description": [
+            "Leonardo está aprendendo a tabuada e ama mexer no computador,",
+            "então para melhorar o aprendizado dele, você decide fazer um ",
+            "programa que quando Leonardo digitar um número,",
+            "mostre a tabuada desse número (até 10)."
+         ],
+         "difficulty": 1,
+         "resolution_file": "tabuada.py",
+         "sourceURL": "",
+         "chapter_id": 1
+      },
+      {
+         "title": "Supermercado",
+         "description": [
+            "Maria está participando de um programa de intercâmbio no reino da Nlogônia.",
+            "Ela está gostando muito da experiência, e decidiu fazer um churrasco para suas",
+            "novas amigas da escola.\n",
+            "No entanto ela está um pouco confusa para saber o preço da carne.",
+            "O dinheiro na Nlogônia é o Bit, abreviado por B$, mas não é esse o problema.",
+            "O problema é que o costume na Nlogônia é informar o preço de uma maneira",
+            "diferente do que Maria está acostumada. Os preços são anunciados como",
+            "'X Bits por Y gramas do produto'.\n",
+            "Por exemplo o preço de um dado produto é anunciado como sendo",
+            "B$ 24,00 por 250 gramas em um supermercado, B$ 16,00 por 100 gramas",
+            "em outro supermercado, B$ 19,00 por 120 gramas em outro supermercado,",
+            "e assim por diante.\n",
+            "Como os preços são anunciados da maneira 'X Bits por Y gramas do produto'",
+            "seu programa deve receber os valores X e Y e dizer quantos Bits ela vai",
+            "gastar para comprar 1Kg de carne."
+         ],
+         "difficulty": 3,
+         "resolution_file": "supermercado.py",
+         "sourceURL": "https://olimpiada.ic.unicamp.br/pratique/p2/2019/f2/supermercado/",
+         "chapter_id": 1
+      },
+      {
+         "title": "Mensagem ao visitante",
+         "description": [
+            "A empresa *Quero tudo que é seu* está comemorando 10000000 de visitantes",
+            "em seu site e queria agradecer aos seus usuários por essa marca mostrando",
+            "uma mensagem personalizada a eles. Seu programa deve receber um nome e",
+            "depois mostrar a mensagem : *Obrigado [nome], por visitar nosso site*."
+         ],
+         "difficulty": 1,
+         "resolution_file": "mensagem.py",
+         "sourceURL": "",
+         "chapter_id": 1
+      },
+      {
+         "title": "Teleférico",
+         "description": [
+            "Um grupo de pessoas está fazendo uma excursão na montanha e",
+            "precisa atravessar um teleférico, só que o teleférico tem uma",
+            "capacidade limitada de pessoas.\n",
+            "Seu programa deve receber a capacidade de pessoas que o",
+            "teleférico pode levar de uma vez e a quantidade total de",
+            "pessoas no grupo. Deve ser retornado o número total de viagens",
+            "feitas para que todos atravessam."
+         ],
+         "difficulty": 3,
+         "resolution_file": "teleferico.py",
+         "sourceURL": "https://neps.academy/problem/15",
+         "chapter_id": 1
       }
    ]
 }
