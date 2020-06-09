@@ -20,9 +20,7 @@ exports.seed = async function(knex) {
             question_id: question.id
          }))
       )
-   ) 
-
-   console.log(examplesToSeed);
+   )
 
    return knex('input_examples').del().then(() => {
       if (examplesToSeed.length === 0 ) return;

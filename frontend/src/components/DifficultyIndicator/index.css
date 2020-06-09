@@ -1,6 +1,5 @@
 .difficulty-indicator{
    display: inline-flex;
-   margin-left: 10px;
 }
 
 .difficulty-ball{
@@ -9,9 +8,5 @@
    width: 15px;
    height: 15px;
    border-radius:50%;
-   background-color: #fdd54f;
 }
 
-.difficulty-ball:last-child{
-   background-color: #aaaaaa;
-}

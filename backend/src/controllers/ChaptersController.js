@@ -14,6 +14,10 @@ module.exports = {
          .select()
          .where('id', chapterId)
          .first();
+      
+      if(!chapter){
+         response.status(404).send({'error': 'Not Found'})
+      }
 
       const questions = await database('questions')
          .select('id', 'title', 'difficulty')

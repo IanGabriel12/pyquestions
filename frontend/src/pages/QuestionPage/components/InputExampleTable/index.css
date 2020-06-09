@@ -1,0 +1,30 @@
+.example-table{
+   width: 100%;
+   border-collapse: collapse;
+   font-family: 'BebasNeue', sans-serif;
+}
+
+.example-table .header-row{
+   background-color: #aaaaaa;
+}
+
+.example-table th{
+   width: 50%;
+}
+
+.example-table th, .example-table td {
+   border: 7px solid #aaaaaa;
+}
+
+.example-table td{
+   
+   background-color: white;
+   border-width: 7px;
+   padding: 10px;
+}
+
+@media only screen and (min-width: 700px){
+   .example-table{
+      font-size: 24px;
+   }
+}

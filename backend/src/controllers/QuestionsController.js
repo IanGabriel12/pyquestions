@@ -9,6 +9,10 @@ module.exports = {
          .where('id', questionId)
          .first();
       
+      if(!question){
+         response.status(404).send({'error': 'Not Found'})
+      }
+      
       const inputExamples = await database('input_examples')
          .select('input', 'output')
          .where('question_id', questionId);

@@ -4,7 +4,10 @@ import MainHeader from '../../components/MainHeader';
 import PageHeader from '../../components/PageHeader';
 import DiffitultyIndicator from '../../components/DifficultyIndicator';
 import api from '../../services/api';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
+import { FiArrowLeft } from 'react-icons/fi'
+import InputExampleTable from './components/InputExampleTable';
+import Markdown from 'react-markdown';
 
 export default function QuestionPage(){
    const { id: questionId } = useParams();
@@ -27,22 +30,38 @@ export default function QuestionPage(){
    if(!question){
       return null;
    }
-   
+
    return (
       <>
       <MainHeader />
       <PageHeader title={chapter.name} description={chapter.description}/>
       <article> 
          <div className='question-container'>
-            <h2>
-            {question.title} <DiffitultyIndicator />
-            </h2>
 
+            <Link to={`/chapters/${question.chapter_id}`} className='go-back'>
+               <FiArrowLeft />
+            </Link>
+
+            <div className='container-header'>
+               <h2>{question.title}</h2>
+               <DiffitultyIndicator difficulty={question.difficulty}/>
+            </div>
+            
             <div className='question-text'>
-               {question.description.split('\n').map((text, index) => <p key={index}>{text}</p>)}
+               <Markdown source={question.description}/>
             </div>
 
-            <a href={question.resolutionURL} target="_blank">Baixar Resolução</a>
+            
+
+            <div className='container-footer'>
+               <InputExampleTable inputExamples={question.input_examples}/>
+               <a 
+                  href={question.resolutionURL} 
+                  target="_blank" 
+                  className='download-link'
+               >Baixar Resolução</a>
+            </div>
+            
          </div>
       </article>
       </>

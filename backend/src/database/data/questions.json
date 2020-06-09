@@ -91,10 +91,10 @@
             "O seu professor passou uma atividade para calcular as áreas de formas regulares.",
             "Você quis pegar um atalho e colocou o seu computador para fazer as contas no seu",
             "lugar Seu programa vai receber um único valor, e ele deve calcular as áreas de:\n",
-            "1. Um quadrado com o lado do tamanho desse valor\n",
-            "2. Um triângulo equilátero com lado igual a esse valor\n",
-            "3. Um círculo com o raio igual a esse valor.\n",
-            "considere: pi=(3.14), raiz de 3=(1.41)"
+            "\n1. Um quadrado com o lado do tamanho desse valor",
+            "\n2. Um triângulo equilátero com lado igual a esse valor",
+            "\n3. Um círculo com o raio igual a esse valor.",
+            "\n\nconsidere: pi=(3.14), raiz de 3=(1.41)"
          ],
          "difficulty": 3,
          "resolution_file": "geometria.py",
@@ -158,7 +158,7 @@
             "A empresa *Quero tudo que é seu* está comemorando 10000000 de visitantes",
             "em seu site e queria agradecer aos seus usuários por essa marca mostrando",
             "uma mensagem personalizada a eles. Seu programa deve receber um nome e",
-            "depois mostrar a mensagem : *Obrigado [nome], por visitar nosso site*."
+            "depois mostrar a mensagem : *Obrigado \\[nome], por visitar nosso site*."
          ],
          "difficulty": 1,
          "resolution_file": "mensagem.py",

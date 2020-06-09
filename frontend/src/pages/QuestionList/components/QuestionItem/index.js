@@ -7,7 +7,7 @@ export default function QuestionItem(props){
    return(
       <ListItem title={props.title} goesTo={props.goesTo}> 
          <span className='difficulty'>
-            Dificuldade: <DifficultyIndicator />
+            Dificuldade: <DifficultyIndicator difficulty={props.difficulty}/>
          </span>
       </ListItem>
    )

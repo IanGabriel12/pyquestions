@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
 @font-face{
    font-family: 'AdventBold';
    src: url('./assets/fonts/advent-Bd3.otf');
@@ -22,6 +24,11 @@
 
 body{
    background-image: url('./assets/images/background.png');
+}
+
+#root{
+   width: 100%;
+   min-width: 350px;
 }
 
 a:hover{
