@@ -105,8 +105,8 @@
          "title": "Quilos de comida",
          "description": [
             "Pedro vai dar uma festa e precisa comprar comida para os convidados,",
-            "o problema é que ele não sabe quanto uma pessoa come em uma festa.\n",
-            "Seu programa deve receber a quantidade de comida, em gramas,",
+            "o problema é que ele não sabe quanto uma pessoa come em uma festa.",
+            "\n\nSeu programa deve receber a quantidade de comida, em gramas,",
             "que uma pessoa consome em uma festa e a quantidade de convidados.",
             "Ele deve retornar quantos QUILOS de comida Pedro deve comprar."
          ],
@@ -133,17 +133,17 @@
          "description": [
             "Maria está participando de um programa de intercâmbio no reino da Nlogônia.",
             "Ela está gostando muito da experiência, e decidiu fazer um churrasco para suas",
-            "novas amigas da escola.\n",
-            "No entanto ela está um pouco confusa para saber o preço da carne.",
+            "novas amigas da escola.",
+            "\n\nNo entanto ela está um pouco confusa para saber o preço da carne.",
             "O dinheiro na Nlogônia é o Bit, abreviado por B$, mas não é esse o problema.",
             "O problema é que o costume na Nlogônia é informar o preço de uma maneira",
             "diferente do que Maria está acostumada. Os preços são anunciados como",
-            "'X Bits por Y gramas do produto'.\n",
-            "Por exemplo o preço de um dado produto é anunciado como sendo",
+            "'X Bits por Y gramas do produto'.",
+            "\n\nPor exemplo o preço de um dado produto é anunciado como sendo",
             "B$ 24,00 por 250 gramas em um supermercado, B$ 16,00 por 100 gramas",
             "em outro supermercado, B$ 19,00 por 120 gramas em outro supermercado,",
-            "e assim por diante.\n",
-            "Como os preços são anunciados da maneira 'X Bits por Y gramas do produto'",
+            "e assim por diante.",
+            "\n\nComo os preços são anunciados da maneira 'X Bits por Y gramas do produto'",
             "seu programa deve receber os valores X e Y e dizer quantos Bits ela vai",
             "gastar para comprar 1Kg de carne."
          ],
@@ -170,8 +170,8 @@
          "description": [
             "Um grupo de pessoas está fazendo uma excursão na montanha e",
             "precisa atravessar um teleférico, só que o teleférico tem uma",
-            "capacidade limitada de pessoas.\n",
-            "Seu programa deve receber a capacidade de pessoas que o",
+            "capacidade limitada de pessoas.",
+            "\n\nSeu programa deve receber a capacidade de pessoas que o",
             "teleférico pode levar de uma vez e a quantidade total de",
             "pessoas no grupo. Deve ser retornado o número total de viagens",
             "feitas para que todos atravessam."

@@ -10,7 +10,7 @@ module.exports = {
          .first();
       
       if(!question){
-         response.status(404).send({'error': 'Not Found'})
+         return response.status(404).send({'error': 'Not Found'})
       }
       
       const inputExamples = await database('input_examples')

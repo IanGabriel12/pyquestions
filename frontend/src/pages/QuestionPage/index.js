@@ -51,8 +51,6 @@ export default function QuestionPage(){
                <Markdown source={question.description}/>
             </div>
 
-            
-
             <div className='container-footer'>
                <InputExampleTable inputExamples={question.input_examples}/>
                <a 
