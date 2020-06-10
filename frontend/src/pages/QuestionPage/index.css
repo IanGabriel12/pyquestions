@@ -1,8 +1,7 @@
 .question-container{
    padding: 20px 0;
    margin: 20px auto;
-   width: 80%;
-   min-width: 350px;
+   width: 100%;
    background: #3470a3;
    position: relative;
 }
@@ -70,6 +69,7 @@
 
 @media only screen and (min-width: 700px){
    .question-container{
+      width: 80%;
       padding: 20px;
    }
 

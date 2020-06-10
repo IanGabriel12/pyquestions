@@ -8,8 +8,8 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 app.use(
-   '/resolutions',
-   express.static(path.resolve(__dirname, '..', 'assets', 'resolutions'))
+   '/downloads',
+   express.static(path.resolve(__dirname, '..', 'assets'))
 )
 
 app.get('/chapters', ChaptersController.index) //list all chapters

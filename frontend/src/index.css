@@ -28,7 +28,6 @@ body{
 
 #root{
    width: 100%;
-   min-width: 350px;
 }
 
 a:hover{
@@ -38,6 +37,6 @@ a:hover{
 }
 
 article{
-   position: absolute;
+   position: relative;
    width: 100%;
 }
